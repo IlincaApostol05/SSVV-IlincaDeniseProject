@@ -30,6 +30,12 @@ public class NotaXMLRepository extends AbstractXMLRepository<Pair<String, String
         loadFromXmlFile();
     }
 
+    public NotaXMLRepository(Validator<Nota> validator, String XMLfilename, Boolean load) {
+        super(validator, XMLfilename);
+        if (load)
+            loadFromXmlFile();
+    }
+
     protected Element getElementFromEntity(Nota nota, Document XMLdocument) {
         Element element = XMLdocument.createElement("nota");
         element.setAttribute("IDStudent", nota.getID().getObject1());

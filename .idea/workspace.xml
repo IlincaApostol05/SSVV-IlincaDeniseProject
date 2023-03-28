@@ -4,10 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3da0a042-221f-49b0-8936-db4922685c54" name="Changes" comment="commit23">
+    <list default="true" id="3da0a042-221f-49b0-8936-db4922685c54" name="Changes" comment="commit234">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ana.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ana.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maria.txt" beforeDir="false" afterPath="$PROJECT_DIR$/maria.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note.xml" beforeDir="false" afterPath="$PROJECT_DIR$/note.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/NotaXMLRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/NotaXMLRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studentiTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/studentiTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studenti.txt" beforeDir="false" afterPath="$PROJECT_DIR$/studenti.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studenti.xml" beforeDir="false" afterPath="$PROJECT_DIR$/studenti.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teme.xml" beforeDir="false" afterPath="$PROJECT_DIR$/teme.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +44,46 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.externalDependencies&quot;
   }
 }</component>
+  <component name="RunManager" selected="JUnit.AppTest.addAssignment_invalidId">
+    <configuration name="AppTest.addAssignment_invalidId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssvv.example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.AppTest" />
+      <option name="METHOD_NAME" value="addAssignment_invalidId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.addAssignment_nullId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssvv.example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.AppTest" />
+      <option name="METHOD_NAME" value="addAssignment_nullId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AppTest.addAssignment_invalidId" />
+        <item itemvalue="JUnit.AppTest.addAssignment_nullId" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -51,7 +98,8 @@
       <workItem from="1678803752083" duration="4000000" />
       <workItem from="1679822773324" duration="619000" />
       <workItem from="1679943211539" duration="1030000" />
-      <workItem from="1679989456825" duration="4595000" />
+      <workItem from="1679989456825" duration="8111000" />
+      <workItem from="1680009782737" duration="684000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1678795091518</created>
@@ -81,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678809140989</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="commit234">
+      <created>1679996940528</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679996940528</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +157,7 @@
     <MESSAGE value="commit" />
     <MESSAGE value="commit2" />
     <MESSAGE value="commit23" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit23" />
+    <MESSAGE value="commit234" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit234" />
   </component>
 </project>

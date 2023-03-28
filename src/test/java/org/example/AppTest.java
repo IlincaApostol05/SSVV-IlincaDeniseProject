@@ -93,4 +93,12 @@ public class AppTest extends TestCase {
     public void addStudent_BVA6() {
         assertEquals(service.saveStudent("10", "aaa", 938), 1);
     }
+
+    @Test
+    public void addAssignment_nullId(){
+        assertEquals(service.saveTema(null, "aaaa", 6, 4), 1);
+    }
+
+    @Test
+    public void addAssignment_invalidId(){assertEquals(service.saveTema("", "aaaa", 6, 4), 1);}
 }

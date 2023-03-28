@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3da0a042-221f-49b0-8936-db4922685c54" name="Changes" comment="commit234">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ana.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ana.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maria.txt" beforeDir="false" afterPath="$PROJECT_DIR$/maria.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note.xml" beforeDir="false" afterPath="$PROJECT_DIR$/note.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/repository/NotaXMLRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/NotaXMLRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studenti.txt" beforeDir="false" afterPath="$PROJECT_DIR$/studenti.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studenti.xml" beforeDir="false" afterPath="$PROJECT_DIR$/studenti.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teme.xml" beforeDir="false" afterPath="$PROJECT_DIR$/teme.xml" afterDir="false" />
+    <list default="true" id="3da0a042-221f-49b0-8936-db4922685c54" name="Changes" comment="6">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +90,7 @@
       <workItem from="1679822773324" duration="619000" />
       <workItem from="1679943211539" duration="1030000" />
       <workItem from="1679989456825" duration="8111000" />
-      <workItem from="1680009782737" duration="684000" />
+      <workItem from="1680009782737" duration="1022000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1678795091518</created>
@@ -136,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679996940528</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="6">
+      <created>1680010667489</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1680010667489</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +156,7 @@
     <MESSAGE value="commit2" />
     <MESSAGE value="commit23" />
     <MESSAGE value="commit234" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit234" />
+    <MESSAGE value="6" />
+    <option name="LAST_COMMIT_MESSAGE" value="6" />
   </component>
 </project>

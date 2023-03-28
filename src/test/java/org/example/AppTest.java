@@ -37,4 +37,60 @@ public class AppTest extends TestCase {
     public void addInvalidStudent() {
         assertEquals(service.saveStudent("7", "invalid",7),1);
 }
+
+    @Test
+    public void addStudent_validId(){
+        assertEquals(service.saveStudent("15", "stud", 935), 0);
+    }
+
+    @Test
+    public void addStudent_invalidId(){assertEquals(service.saveStudent("", "stud", 935), 1);}
+
+    @Test
+    public void addStudent_nullId(){
+        assertEquals(service.saveStudent(null, "stud", 935), 1);
+    }
+
+    @Test
+    public void addStudent_validName(){
+        assertEquals(service.saveStudent("11", "stud", 935), 0);
+    }
+
+    @Test
+    public void addStudent_invalidName(){
+        assertEquals(service.saveStudent("11", "", 935), 1);
+    }
+
+    @Test
+    public void addStudent_nullName(){assertEquals(service.saveStudent("1", null, 935), 1);}
+
+    @Test
+    public void addStudent_BVA1() {
+        assertEquals(service.saveStudent("10", "aaa", 110), 1);
+    }
+
+    @Test
+    public void addStudent_BVA2() {
+        assertEquals(service.saveStudent("10", "aaa", 111), 0);
+    }
+
+    @Test
+    public void addStudent_BVA3() {
+        assertEquals(service.saveStudent("10", "aaa", 112), 0);
+    }
+
+    @Test
+    public void addStudent_BVA4() {
+        assertEquals(service.saveStudent("10", "aaa", 936), 0);
+    }
+
+    @Test
+    public void addStudent_BVA5() {
+        assertEquals(service.saveStudent("10", "aaa", 937), 0);
+    }
+
+    @Test
+    public void addStudent_BVA6() {
+        assertEquals(service.saveStudent("10", "aaa", 938), 1);
+    }
 }

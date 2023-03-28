@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3da0a042-221f-49b0-8936-db4922685c54" name="Changes" comment="commit23">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studenti.xml" beforeDir="false" afterPath="$PROJECT_DIR$/studenti.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studentiTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/studentiTest.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +48,10 @@
       <workItem from="1678785784301" duration="2052000" />
       <workItem from="1678794858434" duration="378000" />
       <workItem from="1678796849766" duration="709000" />
-      <workItem from="1678803752083" duration="3588000" />
+      <workItem from="1678803752083" duration="4000000" />
+      <workItem from="1679822773324" duration="619000" />
+      <workItem from="1679943211539" duration="1030000" />
+      <workItem from="1679989456825" duration="4595000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1678795091518</created>
@@ -70,7 +74,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678804878835</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="commit23">
+      <created>1678809140989</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678809140989</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

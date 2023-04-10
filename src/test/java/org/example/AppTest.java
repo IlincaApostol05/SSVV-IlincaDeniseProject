@@ -101,4 +101,40 @@ public class AppTest extends TestCase {
 
     @Test
     public void addAssignment_invalidId(){assertEquals(service.saveTema("", "aaaa", 6, 4), 1);}
+
+    @Test
+    public void addAssignment_nullDescription(){
+        assertEquals(service.saveTema("1", null, 6, 4), 1);
+    }
+
+    @Test
+    public void addAssignment_invalidDescription(){assertEquals(service.saveTema("1", "", 6, 4), 1);}
+
+    @Test
+    public void addAssignment_deadlineSmaller(){
+        assertEquals(service.saveTema("1", "description", 0, 4), 1);
+    }
+
+    @Test
+    public void addAssignment_deadlineBigger(){assertEquals(service.saveTema("1", "description", 15, 4), 1);}
+
+
+    @Test
+    public void addAssignment_startlineSmaller(){
+        assertEquals(service.saveTema("1", "description", 4, 0), 1);
+    }
+
+    @Test
+    public void addAssignment_startlineBigger(){assertEquals(service.saveTema("1", "description", 4, 15), 1);}
+
+    @Test
+    public void addValidAssignment(){assertEquals(service.saveTema("11", "description", 9, 7), 0);}
+
+    @Test
+    public void addDuplicatedAssignment(){
+        assertEquals(service.saveTema("12", "description", 9, 7), 0);
+        assertEquals(service.saveTema("12", "description", 9, 7),0);}
 }
+
+
+

@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3da0a042-221f-49b0-8936-db4922685c54" name="Changes" comment="7">
+    <list default="true" id="3da0a042-221f-49b0-8936-db4922685c54" name="Changes" comment="8">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teme.xml" beforeDir="false" afterPath="$PROJECT_DIR$/teme.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +37,22 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.externalDependencies&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.AppTest.addAssignment_invalidId">
+  <component name="RunManager" selected="JUnit.AppTest">
+    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssvv.example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.AppTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AppTest.addAssignment_invalidId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ssvv.example" />
       <extension name="coverage">
@@ -68,8 +85,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppTest.addDuplicatedAssignment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssvv.example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.AppTest" />
+      <option name="METHOD_NAME" value="addDuplicatedAssignment" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AppTest" />
+        <item itemvalue="JUnit.AppTest.addDuplicatedAssignment" />
         <item itemvalue="JUnit.AppTest.addAssignment_invalidId" />
         <item itemvalue="JUnit.AppTest.addAssignment_nullId" />
       </list>
@@ -90,7 +125,11 @@
       <workItem from="1679822773324" duration="619000" />
       <workItem from="1679943211539" duration="1030000" />
       <workItem from="1679989456825" duration="8111000" />
-      <workItem from="1680009782737" duration="1825000" />
+      <workItem from="1680009782737" duration="4175000" />
+      <workItem from="1680592292857" duration="155000" />
+      <workItem from="1680593505138" duration="606000" />
+      <workItem from="1681052257953" duration="3511000" />
+      <workItem from="1681122113806" duration="1435000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1678795091518</created>
@@ -141,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680010875210</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="8">
+      <created>1680011717046</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1680011717046</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +211,12 @@
     <MESSAGE value="commit234" />
     <MESSAGE value="6" />
     <MESSAGE value="7" />
-    <option name="LAST_COMMIT_MESSAGE" value="7" />
+    <MESSAGE value="8" />
+    <option name="LAST_COMMIT_MESSAGE" value="8" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ssvv_example$AppTest.ic" NAME="AppTest Coverage Results" MODIFIED="1681053733805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.example.*</FILTER>
+    </SUITE>
   </component>
 </project>

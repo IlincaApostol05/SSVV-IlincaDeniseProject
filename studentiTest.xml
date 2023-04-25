@@ -8,9 +8,21 @@
         <Nume>stud</Nume>
         <Grupa>935</Grupa>
     </student>
+    <student ID="1">
+        <Nume>ana</Nume>
+        <Grupa>934</Grupa>
+    </student>
+    <student ID="2">
+        <Nume>bob</Nume>
+        <Grupa>934</Grupa>
+    </student>
     <student ID="15">
         <Nume>stud</Nume>
         <Grupa>935</Grupa>
+    </student>
+    <student ID="16">
+        <Nume>bob</Nume>
+        <Grupa>934</Grupa>
     </student>
     <student ID="10">
         <Nume>aaa</Nume>

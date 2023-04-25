@@ -44,13 +44,16 @@ public class BigBangTest {
     public void addGrade() {
         service.saveTema("16", "descriere", 10, 1);
         service.saveStudent("16", "bob", 934);
-        assertEquals(service.saveNota("2", "2", 10, 3, "very good"), 1);
+        assertEquals(service.saveNota("16", "16", 10, 3, "very good"), 1);
     }
 
     @Test
     public void integrateBigBang() {
-        addStudent();
-        addAssignment();
-        addGrade();
+//        addStudent();
+//        addAssignment();
+//        addGrade();
+        service.saveTema("17", "descriere", 10, 1);
+        service.saveStudent("17", "cody", 934);
+        assertEquals(service.saveNota("17", "17", 10, 3, "very good"), 1);
     }
 }

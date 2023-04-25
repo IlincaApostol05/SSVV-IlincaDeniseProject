@@ -24,6 +24,10 @@
         <Nume>bob</Nume>
         <Grupa>934</Grupa>
     </student>
+    <student ID="17">
+        <Nume>cody</Nume>
+        <Grupa>934</Grupa>
+    </student>
     <student ID="10">
         <Nume>aaa</Nume>
         <Grupa>935</Grupa>

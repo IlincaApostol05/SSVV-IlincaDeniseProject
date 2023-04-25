@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3da0a042-221f-49b0-8936-db4922685c54" name="Changes" comment="added tests for add asignment">
-      <change afterPath="$PROJECT_DIR$/src/test/java/service/BigBangTest.java" afterDir="false" />
+    <list default="true" id="3da0a042-221f-49b0-8936-db4922685c54" name="Changes" comment="Lab4IC: add big bang test case">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/service/AssignmentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/service/AssignmentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/service/BigBangTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/service/BigBangTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681126080723</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Lab4IC: add big bang test case">
+      <created>1682430754391</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1682430754391</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,7 +235,8 @@
     <MESSAGE value="7" />
     <MESSAGE value="8" />
     <MESSAGE value="added tests for add asignment" />
-    <option name="LAST_COMMIT_MESSAGE" value="added tests for add asignment" />
+    <MESSAGE value="Lab4IC: add big bang test case" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab4IC: add big bang test case" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ssvv_example$AppTest.ic" NAME="AppTest Coverage Results" MODIFIED="1681125814853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

@@ -50,6 +50,11 @@
         <Deadline>8</Deadline>
         <Startline>6</Startline>
     </tema>
+    <tema ID="17">
+        <Descriere>descriere</Descriere>
+        <Deadline>10</Deadline>
+        <Startline>1</Startline>
+    </tema>
     <tema ID="7">
         <Descriere>tema</Descriere>
         <Deadline>7</Deadline>

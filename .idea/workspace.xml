@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3da0a042-221f-49b0-8936-db4922685c54" name="Changes" comment="Lab4IC: add big bang test case">
+    <list default="true" id="3da0a042-221f-49b0-8936-db4922685c54" name="Changes" comment="added tests for add asignment done">
+      <change afterPath="$PROJECT_DIR$/src/test/java/service/GradeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note.xml" beforeDir="false" afterPath="$PROJECT_DIR$/note.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/service/AssignmentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/service/AssignmentTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/service/BigBangTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/service/BigBangTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +24,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -33,13 +35,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/dev41/Downloads/DemoLab04_mockito/StubsIsPrime/src/test/java/IsPrime"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="repository" />
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BigBangTest">
+  <component name="RunManager">
     <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="SSVV-IlincaDeniseProject" />
       <extension name="coverage">
@@ -138,6 +146,7 @@
       <workItem from="1680593505138" duration="606000" />
       <workItem from="1681052257953" duration="3511000" />
       <workItem from="1681122113806" duration="2410000" />
+      <workItem from="1682662755213" duration="1121000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1678795091518</created>
@@ -242,8 +251,8 @@
     <SUITE FILE_PATH="coverage/ssvv_example$AppTest.ic" NAME="AppTest Coverage Results" MODIFIED="1681125814853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.example.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/ssvv_example$AssignmentTest.ic" NAME="AssignmentTest Coverage Results" MODIFIED="1681126443389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>org.example.*</FILTER>
+    <SUITE FILE_PATH="coverage/ssvv_example$AssignmentTest.ic" NAME="AssignmentTest Coverage Results" MODIFIED="1681127611480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>service.*</FILTER>
     </SUITE>
   </component>
 </project>

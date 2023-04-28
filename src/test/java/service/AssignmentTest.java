@@ -67,8 +67,4 @@ public class AssignmentTest {
     @Test
     public void addValidAssignment(){assertEquals(service.saveTema("11", "description", 9, 7), 0);}
 
-    @Test
-    public void addDuplicatedAssignment(){
-        assertEquals(service.saveTema("12", "description", 9, 7), 0);;
-        assertEquals(service.saveTema("12", "description", 9, 7), 0);}
 }

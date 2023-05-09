@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3da0a042-221f-49b0-8936-db4922685c54" name="Changes" comment="Lab4IC: add big bang test case">
+    <list default="true" id="3da0a042-221f-49b0-8936-db4922685c54" name="Changes" comment="Lab4IC: fix big bang test case">
+      <change afterPath="$PROJECT_DIR$/src/test/java/service/IncrementalIntegrationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/service/AssignmentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/service/AssignmentTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/service/BigBangTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/service/BigBangTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,29 +33,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="repository" />
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BigBangTest">
-    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="SSVV-IlincaDeniseProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.AppTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.IncrementalIntegrationTest">
     <configuration name="AssignmentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SSVV-IlincaDeniseProject" />
       <extension name="coverage">
@@ -102,19 +89,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IncrementalIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SSVV-IlincaDeniseProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.IncrementalIntegrationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IncrementalIntegrationTest.testAddStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SSVV-IlincaDeniseProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.IncrementalIntegrationTest" />
+      <option name="METHOD_NAME" value="testAddStudent" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.AppTest" />
       <item itemvalue="JUnit.AssignmentTest" />
       <item itemvalue="JUnit.BigBangTest" />
       <item itemvalue="JUnit.BigBangTest.integrateBigBang" />
+      <item itemvalue="JUnit.IncrementalIntegrationTest" />
+      <item itemvalue="JUnit.IncrementalIntegrationTest.testAddStudent" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IncrementalIntegrationTest" />
+        <item itemvalue="JUnit.IncrementalIntegrationTest.testAddStudent" />
         <item itemvalue="JUnit.BigBangTest" />
         <item itemvalue="JUnit.BigBangTest.integrateBigBang" />
         <item itemvalue="JUnit.AssignmentTest" />
-        <item itemvalue="JUnit.AppTest" />
-        <item itemvalue="JUnit.AppTest" />
       </list>
     </recent_temporary>
   </component>
@@ -138,6 +157,7 @@
       <workItem from="1680593505138" duration="606000" />
       <workItem from="1681052257953" duration="3511000" />
       <workItem from="1681122113806" duration="2410000" />
+      <workItem from="1683631542178" duration="1456000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1678795091518</created>
@@ -209,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682430754391</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Lab4IC: fix big bang test case">
+      <created>1682447307698</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1682447307698</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,7 +263,8 @@
     <MESSAGE value="8" />
     <MESSAGE value="added tests for add asignment" />
     <MESSAGE value="Lab4IC: add big bang test case" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab4IC: add big bang test case" />
+    <MESSAGE value="Lab4IC: fix big bang test case" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab4IC: fix big bang test case" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ssvv_example$AppTest.ic" NAME="AppTest Coverage Results" MODIFIED="1681125814853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
